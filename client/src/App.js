@@ -8,7 +8,7 @@ import { Launch } from "./components/Launch";
 import { Link } from "react-router-dom";
 
 const client = new ApolloClient({
-	uri: "http://localhost:5000/graphql",
+	uri: "/graphql",
 	cache: new InMemoryCache(),
 });
 
